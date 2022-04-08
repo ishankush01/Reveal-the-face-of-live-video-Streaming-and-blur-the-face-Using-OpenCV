@@ -1,5 +1,3 @@
-pip install opencv-python                                                 #Installing the openCV library
-
 import cv2                                                                #import the cv2 library
 cap = cv2.VideoCapture(0)                                                 #setup the camera into video source
 model = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")      #Importing the HaarCascade Classifier
